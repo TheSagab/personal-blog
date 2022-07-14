@@ -19,7 +19,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@main
         with:
-          deno-version: 1.23.3
+          deno-version: 1.23.4
 
       - name: Build site
         run: root=https://bhagawanta.deno.dev deno run -A https://deno.land/x/ultra/build.ts
